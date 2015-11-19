@@ -4,9 +4,12 @@
         "http://www.puppycrawl.com/dtds/configuration_1_3.dtd">
 <module name="Checker">
 
+    <!--
     <module name="FileLength">
         <property name="severity" value="warning"/>
     </module>
+    -->
+
     <module name="FileTabCharacter">
         <property name="eachLine" value="true"/>
     </module>
@@ -14,9 +17,11 @@
     <module name="TreeWalker">
         <module name="FileContentsHolder"/>
 
+        <!--
         <module name="ConstantName">
             <property name="severity" value="warning"/>
         </module>
+        -->
 
         <module name="AvoidStarImport">
             <property name="severity" value="error"/>
@@ -41,5 +46,6 @@
         <module name="AnonInnerLength">
             <property name="max" value="60"/>
         </module>
+        <module name="AnnotationLocation"/>
     </module>
 </module>
