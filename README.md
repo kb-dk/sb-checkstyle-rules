@@ -19,6 +19,8 @@ There is a new Tool Window available at the bottom named "Checkstyle".
 There is an icon looking like four small blue squares in the lower right
 corner of a grey rectangle.  This runs checkstyle on the current module.
 
+![sample run in Intellij 2017](intellij-sample-run.png)
+
 See https://github.com/jshiell/checkstyle-idea for documentation.
 
 http://checkstyle.sourceforge.net/checks.html
